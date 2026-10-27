@@ -3,6 +3,7 @@ import ProgramaPrecio from './ProgramaPrecio.jsx';
 import ProgramaVotacion from './ProgramaVotacion.jsx';
 import ProgramaTemperatura from './ProgramaTemperatura.jsx';
 import ProgramaListadoAlumnos from './ProgramaListadoAlumnos.jsx';
+import EcoEnvios from './EcoEnvios.jsx';
 
 function Ejercicio({ numero, titulo, archivo, children }) {
   return (
@@ -24,12 +25,13 @@ export default function App() {
         <div className="contenedor">
           <p className="etiqueta">DESARROLLO WEB · EJERCICIOS PRÁCTICOS</p>
           <h1>React 3<span>Renderizado condicional</span></h1>
-          <p>Funciones puras y operadores ternarios, aplicados a cuatro ejercicios.</p>
+          <p>Funciones puras y operadores ternarios, aplicados a cuatro ejercicios y al desafío GreenTech.</p>
           <nav aria-label="Ejercicios">
             <a href="#ej-4.1">4.1 · Autobús</a>
             <a href="#ej-4.2">4.2 · Votación</a>
             <a href="#ej-4.3">4.3 · Temperatura</a>
             <a href="#ej-4.4">4.4 · Alumnos</a>
+            <a href="#ej-green">Desafío · GreenTech</a>
           </nav>
         </div>
       </header>
@@ -42,6 +44,7 @@ export default function App() {
         <Ejercicio numero="4.2" titulo="Validar antes de votar" archivo="src/ProgramaVotacion.jsx"><ProgramaVotacion /></Ejercicio>
         <Ejercicio numero="4.3" titulo="Tres intervalos de temperatura" archivo="src/ProgramaTemperatura.jsx"><ProgramaTemperatura /></Ejercicio>
         <Ejercicio numero="4.4" titulo="Elegir qué datos mostrar" archivo="src/ProgramaListadoAlumnos.jsx"><ProgramaListadoAlumnos /></Ejercicio>
+        <Ejercicio numero="green" titulo="GreenTech · Validador de envíos" archivo="src/EcoEnvios.jsx"><EcoEnvios /></Ejercicio>
       </main>
       <footer className="contenedor">React 3 · Código, explicación de los límites y casos de prueba incluidos en el repositorio.</footer>
     </>
