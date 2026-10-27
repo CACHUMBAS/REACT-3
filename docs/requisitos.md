@@ -35,3 +35,9 @@ La lógica será pura y usará operadores ternarios. El contenedor principal de 
 - README con instalación, ubicación de las soluciones, ejemplos y criterios de límites.
 - Pruebas de edades límite, temperatura, prioridad de tarifas y pureza. Revisión visual y compilación antes de entregar.
 - Repositorio nuevo en GitHub, ramas por bloque y commits descriptivos. No se solicita despliegue en Vercel.
+
+## Decisiones confirmadas el 27 de octubre de 2026
+
+- Instalación autorizada de React, React DOM y Vite únicamente en la carpeta de esta entrega.
+- Repositorio público creado por el usuario: https://github.com/CACHUMBAS/REACT-3.git.
+- Temperatura: `[0, 10)` corresponde a `Molt fred`, `[10, 20)` a `Temperatura mitjana` y `[20, 30]` a `Calor`. Fuera de ese rango, mostrar un aviso.
